@@ -187,4 +187,11 @@ function keyPressed() {
   if (keyCode === 82) {
     document.location.reload();
   }
+if (keyCode === 67) {
+        codelink();
+    }
+}
+
+function codelink() {
+    window.location.href = "https://github.com/sagarsaurabhssnl/PRO-C-30";
 }
